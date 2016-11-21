@@ -1,0 +1,5 @@
+﻿<Properties>
+  <WatchEntry0 value="OLAppointmentReccurenceChecker" />
+  <WatchEntry1 value="AppointmentReccurencePopUp.AppointmentReccurenceChecker." />
+  <WatchEntry2 value="timeReccurence" />
+</Properties>
