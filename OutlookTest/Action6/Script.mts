@@ -1,18 +1,15 @@
 ﻿'Starting MS Outlook
 Call StartOutlook()
 
-Set tab = tabs()
 Set tbNames = tabNames()
 
-tab.clickOnTab(tbNames.View)
-Wait(1)
-tab.clickOnTab(tbNames.Home)
-Wait(1)
-tab.clickOnTab(tbNames.Folder)
-Wait(1)
+Call clickOnTab(tbNames.View)
+Wait(0.5)
+Call clickOnTab(tbNames.Home)
+Wait(0.5)
+Call clickOnTab(tbNames.Folder)
+Wait(0.5)
 
 'Close MS Outlook
 Call StopOutlook()
 
-Set objOutlook = Nothing
-Set objFolder = Nothing
