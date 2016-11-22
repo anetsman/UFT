@@ -12,7 +12,6 @@ DevelopTool=AQT
 
 [Actions]
 Action0=Action0\Script.mts
-GetOutlookParameters=Action1\Script.mts
 SwitchBetweenTabs=Action6\Script.mts
 SwitchBetweenApps=Action7\Script.mts
 SheduleAnAppointment=Action9\Script.mts
@@ -59,9 +58,6 @@ Parameters.mtr=
 Action0\Script.mts=
 Action0\Resource.mtr=
 Action0\ObjectRepository.bdb=
-Action1\Script.mts=
-Action1\Resource.mtr=
-Action1\ObjectRepository.bdb=
 Action6\Script.mts=
 Action6\Resource.mtr=
 Action6\ObjectRepository.bdb=

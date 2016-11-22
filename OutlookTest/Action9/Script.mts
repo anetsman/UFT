@@ -5,7 +5,7 @@ Call StartOutlook()
 'Set applications = apps()
 Set applicationNames = appNames()
 Call switchApp(applicationNames.Calendar)
- @@ hightlight id_;_8195154_;_script infofile_;_ZIP::ssf58.xml_;_
+
 'Creating New Appointment
 Call createNewAppointment()
 
