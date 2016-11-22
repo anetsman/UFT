@@ -1,6 +1,8 @@
 ﻿'Starting MS Outlook
 Call StartOutlook()
 
+'Test for switching between
+'MS Outlook applications
 Set applicationNames = appNames()
 
 Call switchApp(applicationNames.Calendar)
