@@ -1,1 +1,0 @@
-UFTBatchRunnerCMD.exe -source "C:\Unified Functional Testing\OutlookTest"
