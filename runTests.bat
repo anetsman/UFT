@@ -1,2 +1,2 @@
-UFTBatchRunnerCMD.exe -source "C:\Unified Functional Testing\OutlookTest"
+UFTBatchRunnerCMD.exe -source ".\OutlookTest"
 taskkill /IM UFT.exe
