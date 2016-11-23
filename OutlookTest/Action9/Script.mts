@@ -12,7 +12,7 @@ Call createNewAppointment()
 Set timeReccurence = reccurenceTime()
 Call setupNewAppointment("qwerty", "qwerty", timeReccurence.Daily, "Netsman, Oleksandr <ANetsman@luxoft.com>")
 
-Reporter.ReportEvent micPass,"Pass","Shedule an appointment"
+reportPass "Shedule an appointment"
 
 'Close MS Outlook after waiting for sending an email
 Wait(2)
