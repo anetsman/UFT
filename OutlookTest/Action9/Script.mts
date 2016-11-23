@@ -2,7 +2,6 @@
 Call StartOutlook()
 
 'Switching to Calendar
-'Set applications = apps()
 Set applicationNames = appNames()
 Call switchApp(applicationNames.Calendar)
 
@@ -18,10 +17,6 @@ Reporter.ReportEvent micPass,"Pass","Shedule an appointment"
 'Close MS Outlook after waiting for sending an email
 Wait(2)
 Call StopOutlook()
-'objOutlook.Quit()
-
-Set objOutlook = Nothing
-Set objFolder = Nothing
 
 
 'UIAWindow("Календар - ANetsman@luxoft.com").UIAButton("New Appointment").Click
